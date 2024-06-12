@@ -3,7 +3,7 @@
 [![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)](https://mongoosejs.com/)
 [![Em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg?style=for-the-badge)](https://github.com/kdalves/schedule)
 
-Other README languages:
+Outras linguagens de README:
 
 [![English](https://img.shields.io/badge/English-%231DA1F2.svg?style=for-the-badge&logo=none)](README.md)
 
