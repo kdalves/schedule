@@ -4,6 +4,7 @@
 
 # Diretório de dependências
 /node_modules
+/package-lock.json
 
 # Arquivos de compilação
 /dist
