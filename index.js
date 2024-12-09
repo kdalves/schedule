@@ -8,6 +8,7 @@ async function conectarAoBancoDeDados() {
   try {
       await mongoose.connect('mongodb://localhost:27017/schedule');
       console.log('Conectado ao MongoDB');
+      chatIndex
   } catch (err) {
       console.error('Erro ao conectar ao MongoDB:', err);
   }
@@ -15,9 +16,10 @@ async function conectarAoBancoDeDados() {
 
 conectarAoBancoDeDados();
 
+const chatIndex = require('./chat/chatIndex');
+const appointmentRoutes = require('./routes/appointment');
 
-const appointmentRoutes = require('./routes/appointment')
-
+chatIndex();
 app.use('/appointment', appointmentRoutes)
 
 app.listen(3001, () => {
